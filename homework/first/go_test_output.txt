@@ -1,0 +1,156 @@
+=== RUN   TestOneRoot
+    first_test.go:41: a = 11.100000, b = 41.070000, c = 50.653000, eps = 0.000010, delta = 0.230000
+    first_test.go:50: Root -3.680000 have a multiple of 1
+    first_test.go:52: <==============================>
+    first_test.go:41: a = -21.300000, b = 151.230000, c = -357.911000, eps = 0.000010, delta = 200.000000
+    first_test.go:50: Root 7.100000 have a multiple of 3
+    first_test.go:52: <==============================>
+    first_test.go:41: a = 0.000000, b = 100.230000, c = 0.000000, eps = 0.000010, delta = 200.000000
+    first_test.go:50: Root 0.000000 have a multiple of 1
+    first_test.go:52: <==============================>
+    first_test.go:41: a = -1.333000, b = 1.000000, c = -1.333000, eps = 0.000010, delta = 1000.000000
+    first_test.go:50: Root 1.332998 have a multiple of 1
+    first_test.go:52: <==============================>
+    first_test.go:41: a = 9.999000, b = 12345.000000, c = 123437.655000, eps = 0.000010, delta = 1000.000000
+    first_test.go:50: Root -9.999000 have a multiple of 1
+    first_test.go:52: <==============================>
+    first_test.go:41: a = 0.000000, b = 0.000000, c = 0.000000, eps = 0.000010, delta = 1000.000000
+    first_test.go:50: Root 0.000000 have a multiple of 3
+    first_test.go:52: <==============================>
+--- PASS: TestOneRoot (0.00s)
+=== RUN   TestTwoRoots
+    first_test.go:75: a = 3347.000000, b = 46711.000000, c = 163317.000000, eps = 0.000010, delta = 7.770000
+    first_test.go:84: Root -3333.000000 have a multiple of 1
+    first_test.go:84: Root -7.000000 have a multiple of 2
+    first_test.go:86: <==============================>
+    first_test.go:75: a = 110981.000000, b = -2219920.000000, c = 11100100.000000, eps = 0.000010, delta = 7.770000
+    first_test.go:84: Root -111001.000000 have a multiple of 1
+    first_test.go:84: Root 10.000000 have a multiple of 2
+    first_test.go:86: <==============================>
+    first_test.go:75: a = -101014.000000, b = 404044.000000, c = -404040.000000, eps = 0.000010, delta = 1.111000
+    first_test.go:84: Root 2.000000 have a multiple of 2
+    first_test.go:84: Root 101010.000000 have a multiple of 1
+    first_test.go:86: <==============================>
+    first_test.go:75: a = -99999.780000, b = -21999.987900, c = -1210.000000, eps = 0.000010, delta = 101.000000
+    first_test.go:84: Root -0.110000 have a multiple of 2
+    first_test.go:84: Root 100000.000000 have a multiple of 1
+    first_test.go:86: <==============================>
+    first_test.go:75: a = -100007.000000, b = 0.000000, c = 0.000000, eps = 0.000010, delta = 101.000000
+    first_test.go:84: Root 0.000000 have a multiple of 2
+    first_test.go:84: Root 100007.000000 have a multiple of 1
+    first_test.go:86: <==============================>
+    first_test.go:75: a = 11.000000, b = 30.250000, c = 0.000000, eps = 0.000010, delta = 0.230000
+    first_test.go:84: Root -5.500000 have a multiple of 2
+    first_test.go:84: Root -0.000000 have a multiple of 1
+    first_test.go:86: <==============================>
+    first_test.go:75: a = -11.000000, b = 30.250000, c = 0.000000, eps = 0.000010, delta = 0.230000
+    first_test.go:84: Root 0.000000 have a multiple of 1
+    first_test.go:84: Root 5.500000 have a multiple of 2
+    first_test.go:86: <==============================>
+--- PASS: TestTwoRoots (0.00s)
+=== RUN   TestThreeRoots
+    first_test.go:106: a = 103.330000, b = 333.099000, c = 9.900000, eps = 0.000010, delta = 7.000000
+    first_test.go:115: Root -100.000000 have a multiple of 1
+    first_test.go:115: Root -3.300000 have a multiple of 1
+    first_test.go:115: Root -0.030000 have a multiple of 1
+    first_test.go:117: <==============================>
+    first_test.go:106: a = 2122.980000, b = 202257.540000, c = -4046.000000, eps = 0.000010, delta = 7.000000
+    first_test.go:115: Root -2023.000000 have a multiple of 1
+    first_test.go:115: Root -100.000000 have a multiple of 1
+    first_test.go:115: Root 0.020000 have a multiple of 1
+    first_test.go:117: <==============================>
+    first_test.go:106: a = -96.730000, b = -327.009000, c = 9.900000, eps = 0.000010, delta = 7.000000
+    first_test.go:115: Root -3.299137 have a multiple of 1
+    first_test.go:115: Root 0.030008 have a multiple of 1
+    first_test.go:115: Root 99.999128 have a multiple of 1
+    first_test.go:117: <==============================>
+    first_test.go:106: a = -103.330000, b = 333.099000, c = -9.900000, eps = 0.000010, delta = 7.000000
+    first_test.go:115: Root 0.030000 have a multiple of 1
+    first_test.go:115: Root 3.300000 have a multiple of 1
+    first_test.go:115: Root 100.000000 have a multiple of 1
+    first_test.go:117: <==============================>
+--- PASS: TestThreeRoots (0.00s)
+=== RUN   TestVariatingEpsilon
+    first_test.go:138: a = -0.000001, b = 1.000000, c = -0.000001, eps = 0.000000, delta = 1000.000000
+    first_test.go:148: Root 0.000001 have a multiple of 1
+    first_test.go:150: <==============================>
+    first_test.go:138: a = -0.000001, b = 1.000000, c = -0.000001, eps = 0.000100, delta = 1000.000000
+    first_test.go:148: Root 0.000000 have a multiple of 1
+    first_test.go:150: <==============================>
+    first_test.go:138: a = -0.000001, b = 1.000000, c = -0.000001, eps = 0.100000, delta = 1000.000000
+    first_test.go:148: Root 0.000000 have a multiple of 1
+    first_test.go:150: <==============================>
+    first_test.go:138: a = -0.000001, b = 1.000000, c = -0.000001, eps = 1.000000, delta = 1000.000000
+    first_test.go:148: Root 0.000000 have a multiple of 3
+    first_test.go:150: <==============================>
+--- PASS: TestVariatingEpsilon (0.00s)
+=== RUN   TestAllRoots
+    first_test.go:183: a = 103.330000, b = 333.099000, c = 9.900000, eps = 0.000010, delta = 7.000000
+    first_test.go:192: Root -100.000000 have a multiple of 1
+    first_test.go:192: Root -3.300000 have a multiple of 1
+    first_test.go:192: Root -0.030000 have a multiple of 1
+    first_test.go:194: <==============================>
+    first_test.go:183: a = 2122.980000, b = 202257.540000, c = -4046.000000, eps = 0.000010, delta = 7.000000
+    first_test.go:192: Root -2023.000000 have a multiple of 1
+    first_test.go:192: Root -100.000000 have a multiple of 1
+    first_test.go:192: Root 0.020000 have a multiple of 1
+    first_test.go:194: <==============================>
+    first_test.go:183: a = -96.730000, b = -327.009000, c = 9.900000, eps = 0.000010, delta = 7.000000
+    first_test.go:192: Root -3.299137 have a multiple of 1
+    first_test.go:192: Root 0.030008 have a multiple of 1
+    first_test.go:192: Root 99.999128 have a multiple of 1
+    first_test.go:194: <==============================>
+    first_test.go:183: a = -103.330000, b = 333.099000, c = -9.900000, eps = 0.000010, delta = 7.000000
+    first_test.go:192: Root 0.030000 have a multiple of 1
+    first_test.go:192: Root 3.300000 have a multiple of 1
+    first_test.go:192: Root 100.000000 have a multiple of 1
+    first_test.go:194: <==============================>
+    first_test.go:183: a = 3347.000000, b = 46711.000000, c = 163317.000000, eps = 0.000010, delta = 7.770000
+    first_test.go:192: Root -3333.000000 have a multiple of 1
+    first_test.go:192: Root -7.000000 have a multiple of 2
+    first_test.go:194: <==============================>
+    first_test.go:183: a = 110981.000000, b = -2219920.000000, c = 11100100.000000, eps = 0.000010, delta = 7.770000
+    first_test.go:192: Root -111001.000000 have a multiple of 1
+    first_test.go:192: Root 10.000000 have a multiple of 2
+    first_test.go:194: <==============================>
+    first_test.go:183: a = -101014.000000, b = 404044.000000, c = -404040.000000, eps = 0.000010, delta = 1.111000
+    first_test.go:192: Root 2.000000 have a multiple of 2
+    first_test.go:192: Root 101010.000000 have a multiple of 1
+    first_test.go:194: <==============================>
+    first_test.go:183: a = -99999.780000, b = -21999.987900, c = -1210.000000, eps = 0.000010, delta = 101.000000
+    first_test.go:192: Root -0.110000 have a multiple of 2
+    first_test.go:192: Root 100000.000000 have a multiple of 1
+    first_test.go:194: <==============================>
+    first_test.go:183: a = -100007.000000, b = 0.000000, c = 0.000000, eps = 0.000010, delta = 101.000000
+    first_test.go:192: Root 0.000000 have a multiple of 2
+    first_test.go:192: Root 100007.000000 have a multiple of 1
+    first_test.go:194: <==============================>
+    first_test.go:183: a = 11.000000, b = 30.250000, c = 0.000000, eps = 0.000010, delta = 0.230000
+    first_test.go:192: Root -5.500000 have a multiple of 2
+    first_test.go:192: Root -0.000000 have a multiple of 1
+    first_test.go:194: <==============================>
+    first_test.go:183: a = -11.000000, b = 30.250000, c = 0.000000, eps = 0.000010, delta = 0.230000
+    first_test.go:192: Root 0.000000 have a multiple of 1
+    first_test.go:192: Root 5.500000 have a multiple of 2
+    first_test.go:194: <==============================>
+    first_test.go:183: a = 11.100000, b = 41.070000, c = 50.653000, eps = 0.000010, delta = 0.230000
+    first_test.go:192: Root -3.680000 have a multiple of 1
+    first_test.go:194: <==============================>
+    first_test.go:183: a = -21.300000, b = 151.230000, c = -357.911000, eps = 0.000010, delta = 200.000000
+    first_test.go:192: Root 7.100000 have a multiple of 3
+    first_test.go:194: <==============================>
+    first_test.go:183: a = 0.000000, b = 100.230000, c = 0.000000, eps = 0.000010, delta = 200.000000
+    first_test.go:192: Root 0.000000 have a multiple of 1
+    first_test.go:194: <==============================>
+    first_test.go:183: a = -1.333000, b = 1.000000, c = -1.333000, eps = 0.000010, delta = 1000.000000
+    first_test.go:192: Root 1.332998 have a multiple of 1
+    first_test.go:194: <==============================>
+    first_test.go:183: a = 9.999000, b = 12345.000000, c = 123437.655000, eps = 0.000010, delta = 1000.000000
+    first_test.go:192: Root -9.999000 have a multiple of 1
+    first_test.go:194: <==============================>
+    first_test.go:183: a = 0.000000, b = 0.000000, c = 0.000000, eps = 0.000010, delta = 1000.000000
+    first_test.go:192: Root 0.000000 have a multiple of 3
+    first_test.go:194: <==============================>
+--- PASS: TestAllRoots (0.00s)
+PASS
+ok  	first	0.004s
